@@ -1,0 +1,10 @@
+<csp:content charset="UTF-8">
+<SERVER>
+	s UserName = $Get(%request.Data("UserName",1))
+	s test = $Get(%request.Data("test",1))
+	s password = $Get(%request.Data("password",1))
+	i UserName="3"  d 
+	.w "{'success':true,'result':'"_UserName_test_password_"'}"
+	e  d
+	.w "{'success':false}"
+</SERVER>

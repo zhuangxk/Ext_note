@@ -1,0 +1,5 @@
+基本格式：{index|name:method(params)}
+index:索引
+name：json对象的 属性 名
+method: Ext.util.Format类的方法名
+params：Ext.util.Format类的方法参数

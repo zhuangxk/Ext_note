@@ -1,0 +1,5 @@
+Xtempate3个步骤
+
+1 创建Ext.Xtempate 对象 指定HTML代码做入参
+2 指定占位符信息 可以通过数组或者 json
+3 编译 complile（）
